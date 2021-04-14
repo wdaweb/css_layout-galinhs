@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            background: linear-gradient(transparent 70%, rgba(0, 0, 0, 0.6)100%);
+        }
+
+        .container {
+            width: 100%;
+            /* margin: auto; */
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 0;
+        }
+
+
+
+        .box {
+            width: 250px;
+            height: 550px;
+            /* border: 1px solid #000; */
+            background-image: linear-gradient(90deg, #f5f5f5 0%, #fff 10%, #fff 90%, #f5f5f5 100%);
+            box-shadow: 0.2rem 0.3rem 1rem rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            font-size: 1rem;
+            padding: 25px;
+            -webkit-box-reflect: below 1px linear-gradient(transparent 80%, rgba(0, 0, 0, 0.3));
+            transition: 1s ease-in-out;
+            position: relative;
+
+        }
+
+        .box:nth-child(1) {
+            background-image: linear-gradient(90deg, #fff 90%, #f5f5f5 100%);
+        }
+
+        .box:nth-child(4) {
+            background-image: linear-gradient(90deg, #f5f5f5 0%, #fff 10%);
+        }
+
+
+        .box img {
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+        }
+
+        .box p {
+            margin: 10px;
+            padding: 10px;
+            text-align: left;
+        }
+
+
+        div span {
+            position: absolute;
+        }
+
+        .box:hover span:nth-child(1) {
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 10px;
+            background: linear-gradient(90deg, powderblue, transparent, lavender);
+            animation: a1 0.3s forwards;
+        }
+
+
+        @keyframes a1 {
+            0% {
+                width: 0;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        .box:hover span:nth-child(2) {
+            right: 0;
+            top: 0;
+            width: 10px;
+            height: 0;
+            background: linear-gradient(180deg, lavender, transparent, rgb(226, 217, 110));
+            animation: a2 0.3s forwards;
+        }
+
+        @keyframes a2 {
+            0% {
+                height: 0;
+            }
+
+            100% {
+                height: 100%;
+            }
+        }
+
+        .box:hover span:nth-child(3) {
+            right: 0;
+            bottom: 0;
+            width: 0;
+            height: 10px;
+            background: linear-gradient(270deg, rgb(226, 217, 110), transparent, lightgreen);
+            animation: a3 0.3s forwards;
+        }
+
+        @keyframes a3 {
+            0% {
+                width: 0;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        .box:hover span:nth-child(4) {
+            left: 0;
+            bottom: 0;
+            width: 10px;
+            height: 0;
+            background: linear-gradient(0deg, lightgreen, transparent, powderblue);
+            animation: a4 0.3s forwards;
+        }
+
+        @keyframes a4 {
+            0% {
+                height: 0;
+            }
+
+            100% {
+                height: 100%;
+            }
+        }
+
+        .box:hover {
+            color: transparent;
+            background-image: linear-gradient(lightcoral 5%, salmon 95%);
+            transform: scale(0.85) translateY(-5%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <img src="https://picsum.photos/150/150/?random=1">
+            <p>打了她的精采行動小組，您現在不肯反覆世紀，影音靈魂召開每次英文，概念日誌過來，一絲預覽，成果不願安徽說到居民水晶那裡大人夢想覺得空氣以便猶豫開展，都會現金簡直苗栗針對大約女孩總部第二次青春居然值得研究，不但也不不停一個月有權住了相同，主角看出試試代理，本。
+            </p>
+        </div>
+        <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <img src="https://picsum.photos/150/150/?random=2">
+            <p>
+                不了內部線路忽然彷彿規範簽名教學開放處罰，要在意識上了獲得走勢分享人口壓縮收費衛生家人周圍讓人其中，專家國產郵遞區號實現下載次數鼓勵白色選項優點不錯什麼是，一步知道興趣走勢比如並非所屬最重要一切一直記住反應提出生產，江湖想起法律授權方式發佈一系列一陣，本。
+            </p>
+        </div>
+        <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <img src="https://picsum.photos/150/150/?random=3">
+            <p>通信辦法拒絶有很多最低是否所有人可以起來發送，落實夏天，處理傳播網際快車雙手考核形式所屬開關更新辦理語文新浪好好，只要我是是我蒐集男生一顆孤獨，深深這款或者期限第一個回頭站內居然，要求下載次數推薦使用第二次書庫觀點收益天空圖像化主要，讓人公園總部長沙，作。
+            </p>
+        </div>
+        <div class="box">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <img src="https://picsum.photos/150/150/?random=4">
+            <p> 交給現實先後虛擬大幅提出了銷售原則，體現每個人說出是他公共分配並不溝通政策內地傳說商標幫你，還沒有出了及時面議，以前傳奇準備消費者母親既然常常有關部門負責選項，迅速徹底，形象政府證據終於她們頻道領導總統基於晚上此外，仔細予以涉及比較十二這段轎車，主要出現。
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
